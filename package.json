@@ -2,6 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "This is learn project on hexlet",
+  "main" : "index.js",
   "bin": {
     "nodejs-package": "bin/nodejs-package.js"
   },
