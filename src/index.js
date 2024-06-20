@@ -22,7 +22,7 @@ const genDiff = (data1, data2) => {
         return {
           type: 'changed',
           key,
-          value1: data1[key],
+          value: data1[key],
           value2: data2[key]
         }
       }
@@ -44,7 +44,6 @@ const genDiff = (data1, data2) => {
       }
     }
   });
-
   return result;
 };
 
